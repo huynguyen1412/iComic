@@ -28,6 +28,9 @@
 		D3ACE5E217770B0600BA4BD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ACE5B217770B0600BA4BD1 /* Foundation.framework */; };
 		D3ACE5EA17770B0600BA4BD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3ACE5E817770B0600BA4BD1 /* InfoPlist.strings */; };
 		D3ACE5ED17770B0600BA4BD1 /* iComicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ACE5EC17770B0600BA4BD1 /* iComicTests.m */; };
+		D3ACE5F917770D8500BA4BD1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ACE5F717770D8500BA4BD1 /* ThirdViewController.m */; };
+		D3ACE5FE17770DB000BA4BD1 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ACE5FC17770DB000BA4BD1 /* FourthViewController.m */; };
+		D3ACE60317770DD400BA4BD1 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ACE60117770DD400BA4BD1 /* FifthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,12 @@
 		D3ACE5E917770B0600BA4BD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3ACE5EB17770B0600BA4BD1 /* iComicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iComicTests.h; sourceTree = "<group>"; };
 		D3ACE5EC17770B0600BA4BD1 /* iComicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iComicTests.m; sourceTree = "<group>"; };
+		D3ACE5F617770D8500BA4BD1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D3ACE5F717770D8500BA4BD1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D3ACE5FB17770DB000BA4BD1 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		D3ACE5FC17770DB000BA4BD1 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		D3ACE60017770DD400BA4BD1 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		D3ACE60117770DD400BA4BD1 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +149,12 @@
 				D3ACE5D517770B0600BA4BD1 /* second.png */,
 				D3ACE5D717770B0600BA4BD1 /* second@2x.png */,
 				D3ACE5B717770B0600BA4BD1 /* Supporting Files */,
+				D3ACE5F617770D8500BA4BD1 /* ThirdViewController.h */,
+				D3ACE5F717770D8500BA4BD1 /* ThirdViewController.m */,
+				D3ACE5FB17770DB000BA4BD1 /* FourthViewController.h */,
+				D3ACE5FC17770DB000BA4BD1 /* FourthViewController.m */,
+				D3ACE60017770DD400BA4BD1 /* FifthViewController.h */,
+				D3ACE60117770DD400BA4BD1 /* FifthViewController.m */,
 			);
 			path = iComic;
 			sourceTree = "<group>";
@@ -295,6 +310,9 @@
 				D3ACE5C117770B0600BA4BD1 /* AppDelegate.m in Sources */,
 				D3ACE5CD17770B0600BA4BD1 /* FirstViewController.m in Sources */,
 				D3ACE5D417770B0600BA4BD1 /* SecondViewController.m in Sources */,
+				D3ACE5F917770D8500BA4BD1 /* ThirdViewController.m in Sources */,
+				D3ACE5FE17770DB000BA4BD1 /* FourthViewController.m in Sources */,
+				D3ACE60317770DD400BA4BD1 /* FifthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
